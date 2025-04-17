@@ -14,7 +14,9 @@ HTML / CSS
 Diseño responsive
 
 📸 Vista previa
+
 ![hero](https://github.com/user-attachments/assets/d6688dd9-01e8-4d0b-9836-60e41e82b1ee)
+
 ![testiomonio](https://github.com/user-attachments/assets/cdd550e9-a6d7-422b-bb80-ea6c69137f0c)
 
 
