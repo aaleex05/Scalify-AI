@@ -1,0 +1,20 @@
+---
+const { from = "#0b0c2a", to = "#2b2478" } = Astro.props;
+const { rouned = "rounded-2xl" } = Astro.props;
+const { rounded2 = "rounded-2xl" } = Astro.props;
+---
+
+
+<div class="col-span-3 row-span-3 h-full w-full">
+    <span class={`relative inline-flex overflow-hidden h-full w-full ${rouned} p-[2px]`}>
+      <span
+        class="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#2b2478_60%,#47476e_90%,#47476e_100%)]"
+      ></span>
+      <div
+        class={`w-full px-3 py-1 text-sm text-white ${rounded2} backdrop-blur-3xl whitespace-nowrap`}
+        style={`background-image: linear-gradient(to right, ${from}, ${to})`}
+        >
+       <slot />
+      </div>
+    </span>
+  </div>

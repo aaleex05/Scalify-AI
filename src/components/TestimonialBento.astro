@@ -1,0 +1,7 @@
+---
+const { className = "" } = Astro.props;
+---
+
+<div class={`${className} bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] rounded-xl border border-gray-800 p-10 transition duration-300 shadow hover:border-[#464272] text-white`}>
+  <slot />
+</div>

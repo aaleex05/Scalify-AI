@@ -1,0 +1,224 @@
+---
+import TestimonialBento from "./TestimonialBento.astro";
+import Rating from "./Rating.astro";
+---
+
+<div id="testimonials" class="flex items-center justify-center flex-col pt-50 pb-30">
+  <h1 class="pb-2 text-xl font-semibold text-[#5a5ab1]">Testimonials</h1>
+  <h2 class="lg:text-5xl text-2xl sm:text-4xl font-semibold">We have worked with</h2>
+  <h2 class="lg:text-5xl text-2xl sm:text-4xl font-semibold">thousands of amazing people</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-7 lg:grid-rows-6 gap-4 lg:px-30 lg:pb-30 px-5">
+  <TestimonialBento
+    className="row-start-4 lg:col-span-2 lg:row-span-2"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/men/5.jpg"
+        alt="Manuel Henry"
+      />
+      <div>
+        <div class="flex lg:gap-x-40 xl:gap-x-5 gap-x-5 ">
+          <p class="font-semibold text-sm">Manuel Henry</p>
+          <Rating rating="4" />
+        </div>
+        <p class="text-white/70 text-xs">@manuelhenry</p>
+      </div>
+    </div>
+    <h1 class="py-4 text-xl font-semibold">“Lorem ipsum”</h1>
+    <p class="text-white/60">
+      Iste, libero ducimus quia beatae molestiae repudiandae consectetur aliquid
+      sequi necessitatibus
+    </p>
+  </TestimonialBento>
+
+  <TestimonialBento
+    className="row-span-3 lg:col-span-3 lg:row-span-3 lg:col-start-3 lg:row-start-3 justify-center"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/women/65.jpg"
+        alt="Brenna Goyette"
+      />
+      <div>
+        <div class="flex lg:gap-x-90 xl:gap-x-5 gap-x-5">
+          <p class="font-semibold text-sm">Brenna Goyette</p>
+          <Rating rating="4" />
+        </div>
+        <p class="text-white/70 text-xs">@brennagoyette</p>
+      </div>
+    </div>
+    <h1 class="lg:py-12 py-4 lg:text-2xl text-xl font-semibold">
+      “Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+      voluptatum dolore dignissimos aut alias consequatur, repellat repellendus
+      quas eveniet. Quisquam, quidem. Explicabo, tempora. Voluptatibus,
+      doloremque. Vitae, pariatur.”
+    </h1>
+  </TestimonialBento>
+
+  <TestimonialBento
+    className="row-start-5 lg:col-span-2 lg:row-span-2 lg:col-start-1 lg:row-start-3"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/men/13.jpg"
+        alt="Joe Morales"
+      />
+      <div>
+        <div class="flex gap-x-5 lg:gap-x-40 xl:gap-x-5 md:gap-y-50">
+          <p class="font-semibold text-sm">Joe Morales</p>
+          <Rating rating="5" />
+        </div>
+        <p class="text-white/70 text-xs">@joemorales</p>
+      </div>
+    </div>
+    <p class="text-white/60 py-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+      perferendis unde aliquid exercitationem consequuntur.
+    </p>
+  </TestimonialBento>
+
+  <TestimonialBento
+    className="row-start-6 lg:col-span-2 lg:row-span-3 lg:col-start-1 lg:row-start-5"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/women/13.jpg"
+        alt="Annette Pierce"
+      />
+      <div>
+        <div class="flex gap-x-5 lg:gap-x-40 xl:gap-x-5">
+          <p class="font-semibold text-sm">Annette Pierce</p>
+          <Rating rating="4" />
+        </div>
+        <p class="text-white/70 text-xs">@annettepierce</p>
+      </div>
+    </div>
+    <h1 class="py-4 text-xl font-semibold">“Fugit accusantium”</h1>
+    <p class="text-white/60">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </TestimonialBento>
+
+  <TestimonialBento
+    className="row-start-10 lg:col-span-2 lg:row-span-2 lg:col-start-3 lg:row-start-6"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/men/59.jpg"
+        alt="Gabe Jacobs"
+      />
+      <div>
+        <div class="flex lg:gap-x-40 ">
+          <p class="font-semibold text-sm">Gabe Jacobs</p>
+        </div>
+        <p class="text-white/70 text-xs pb-2">@gabejacobs</p>
+        <Rating rating="4" />
+      </div>
+      <div class="pl-5">
+        <h1 class="py-4 text-xl font-semibold">“Vero aliquid”</h1>
+      </div>
+    </div>
+  </TestimonialBento>
+  <TestimonialBento
+    className="row-start-11 lg:col-span-3 lg:row-span-2 lg:col-start-5 lg:row-start-6"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/men/65.jpg"
+        alt="Darren Cunningham"
+      />
+      <div>
+        <div class="flex lg:gap-x-40 ">
+          <p class="font-semibold text-sm">Darren Cunningham</p>
+        </div>
+        <p class="text-white/70 text-xs pb-2">@darrencunningham</p>
+        <Rating rating="5" />
+      </div>
+      <div class="pl-7">
+        <h1 class="py-4 text-xl font-semibold">
+          “Facilis, blanditiis dolorum!”
+        </h1>
+      </div>
+    </div>
+  </TestimonialBento>
+
+  <TestimonialBento
+    className="row-start-7 lg:col-span-2 lg:row-span-3 lg:col-start-6 lg:row-start-3"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/women/23.jpg"
+        alt="Shane Matthews"
+      />
+      <div>
+        <div class="flex gap-x-5 lg:gap-x-40 xl:gap-x-5">
+          <p class="font-semibold text-sm ">Shane Matthews</p>
+          <Rating rating="4" />
+        </div>
+        <p class="text-white/70 text-xs">@shanematthews</p>
+      </div>
+    </div>
+    <p class="text-white/60 py-4">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+      deserunt sequi voluptates doloremque quia nam numquam veniam harum ab
+      accusamus? Temporibus perferendis saepe in autem! Veniam fugiat tempora
+      molestias consequatur.
+    </p>
+  </TestimonialBento>
+
+  <TestimonialBento
+    className="row-start-8 lg:col-span-3 lg:row-span-2 lg:col-start-3 lg:row-start-1"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/men/29.jpg"
+        alt="Tyrone Little"
+      />
+      <div>
+        <div class="flex gap-x-5 lg:gap-x-90 xl:gap-x-5">
+          <p class="font-semibold text-sm">Tyrone Little</p>
+          <Rating rating="5" />
+        </div>
+        <p class="text-white/70 text-xs">@tyronelittle</p>
+      </div>
+    </div>
+    <h1 class="py-4 text-xl font-semibold">“Quam consequatur”</h1>
+    <p class="text-white/60">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit
+      tempore molestiae quam laboriosam enim sapiente dolor magnam.
+    </p>
+  </TestimonialBento>
+
+  <TestimonialBento
+    className="row-start-9 lg:col-span-2 lg:row-span-2 lg:col-start-6 lg:row-start-1"
+  >
+    <div class="flex items-center">
+      <img
+        class="h-10 w-10 rounded-full mr-3"
+        src="https://randomuser.me/api/portraits/women/39.jpg"
+        alt="June Pearson"
+      />
+      <div>
+        <div class="flex gap-x-5 lg:gap-x-40 xl:gap-x-5">
+          <p class="font-semibold text-sm">June Pearson</p>
+          <Rating rating="4" />
+        </div>
+        <p class="text-white/70 text-xs">@junepearson</p>
+      </div>
+    </div>
+    <h1 class="py-4 text-xl font-semibold">“At quae tempora”</h1>
+    <p class="text-white/60">
+      Et fugiat, illo laudantium, velit voluptatum explicabo soluta ipsa sit
+      libero, cumque nostrum culpa.
+    </p>
+  </TestimonialBento>
+</div>

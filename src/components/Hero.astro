@@ -1,0 +1,133 @@
+---
+import Badge from "./icons/Badge.astro";
+import Bento from "./icons/Bento.astro";
+import Document from "./icons/Document.astro";
+import Smile from "./icons/Smile.astro";
+import Maintenance from "./icons/Maintenance.astro";
+import Puzzle from "./icons/Puzzle.astro";
+---
+
+<div class="flex justify-center items-center flex-col pt-25">
+  <a href="/">
+    <Badge>
+      Announcing our next round of funding.
+      <span class="text-[#7171cf] pl-1 flex items-center justify-center gap-x-2">
+        Read More <span aria-hidden="true">&rarr;</span>
+      </span>
+    </Badge>
+  </a>
+  <span class="font-bold text-5xl text-transparent flex flex-wrap items-center lg:gap-x-3 justify-center lg:flex-row bg-clip-text bg-gradient-to-r to-white from-[#5a5ab1] text-pretty px-5">
+    <span class="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r to-[#5a5ab1] from-[#39397a]">Better Data </span>Scalable AI.
+  </span>
+
+  <p class="text-[#a6a6c1] text-center text-lg max-w-2xl pt-4 text-pretty px-5">
+    We are building a platform that will help you to build and deploy your own AI models.
+  </p>
+</div>
+
+<section class="flex items-center justify-center pt-35 min-h-screen">
+  <div class="w-full max-w-[1280px] px-4">
+  <div class="grid grid-cols-4 grid-rows-12 lg:grid-cols-5 lg:grid-rows-5 gap-4 sm:grid-cols-1 sm:grid-rows-1">
+    <div class="col-span-4 lg:col-span-3 row-span-3 lg:row-span-1 lg:col-start-1 lg:row-start-1 h-full bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] rounded-xl border border-gray-800 p-4 transition duration-300 hover:border-[#464272] hover:shadow-lg hover:shadow-[#464272]/20">
+      <div class="flex flex-col items-center lg:pt-5">
+        <span class="text-xl lg:pl-0 lg:text-3xl justify-center items-center flex flex-col lg:flex-row text-pretty font-semibold">
+          Train and deploy AI models
+          <span class="text-xl lg:pl-2 lg:text-3xl text-pretty font-semibold">in minutes</span>
+        </span>
+        <span class="lg:pb-5 pb-5 pt-3 flex text-xs text-[#b0b0ffce] lg:text-xs">
+          From data ingestion to interface API, all in one place
+        </span>
+        <a class="bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] lg:px-6 lg:py-1 px-5 py-1 cursor-pointer rounded-full border border-[#2b2478] hover:transform hover:scale-105 hover:translate-y-0.5 transition-all duration-300 ease-in-out text-white hover:border-[#4840a8]" href="#">
+          Get Started
+        </a>
+      </div>
+    </div>
+
+    <div class="col-span-4 lg:col-span-3 row-span-3 row-start-4 lg:row-span-5 bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] rounded-xl border border-gray-800 px-4 transition duration-300 hover:border-[#464272] hover:shadow-lg hover:shadow-[#464272]/20 overflow-hidden">
+      <div class="overflow-y-auto lg:h-auto h-46 no-scrollbar lg:pt-20 lg:pl-20">
+        <div class="flex items-center gap-x-5 pb-6">
+          <Smile className="lg:size-15 bg-[#2b2478] p-2 rounded-xl max-w-10 lg:max-w-15 shadow-inner shadow-[#574dbe]"/>
+          <div class="pt-5">
+            <h1 class="lg:text-xl font-semibold">Sentiment Analysis</h1>
+            <p class="text-[#b0b0ffce] text-pretty">Build a model with your customer reviews in minutes.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-x-5 pb-6">
+          <Maintenance className="lg:size-15 bg-[#2b2478] p-2 rounded-xl max-w-10 lg:max-w-15 shadow-inner shadow-[#574dbe]"/>
+          <div>
+            <h1 class="lg:text-xl font-semibold">Predictive Maintenance</h1>
+            <p class="text-[#b0b0ffce] text-pretty">Use sensor data to anticipate failures and reduce downtime.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-x-5 pb-6">
+          <Puzzle className="lg:size-15 bg-[#2b2478] p-2 rounded-xl max-w-10 lg:max-w-15 shadow-inner shadow-[#574dbe]"/>
+          <div>
+            <h1 class="lg:text-xl font-semibold">Bioinformatics</h1>
+            <p class="text-[#b0b0ffce] text-pretty">Build custom models for analyzing genomic data.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-x-5 pb-7">
+          <Document className="lg:size-15 bg-[#2b2478] p-2 rounded-xl max-w-10 lg:max-w-15 shadow-inner shadow-[#574dbe]"/>
+          <div>
+            <h1 class="lg:text-xl font-semibold">Document Automation</h1>
+            <p class="text-[#b0b0ffce] text-pretty">Extract data from documents and automate workflows.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-span-4 lg:col-span-3 row-span-6 col-start-1 row-start-7 lg:row-span-4 lg:col-start-4 lg:row-start-1 lg:h-full bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] rounded-xl border border-gray-800 p-4 transition duration-300 hover:border-[#464272] hover:shadow-lg hover:shadow-[#464272]/20">
+      <div class="flex flex-col items-center lg:pt-5">
+        <h1 class="lg:text-2xl text-xl font-semibold">Get started in 3 steps</h1>
+
+        <div class="flex items-center lg:pt-10 pt-8 pl-6">
+          <h1 class="lg:text-7xl text-5xl font-semibold text-[#574dbe]">1</h1>
+          <div class="pl-5">
+            <h2 class="lg:text-2xl text-[20px]">Upload your data</h2>
+            <p class="text-[#b0b0ffce] text-pretty lg:text-[17px] text-[13px] max-w-xs">
+              Drag and drop a CSV file, connect a database, or explore our datasets.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center lg:pt-10 pt-5 pl-6">
+          <h1 class="lg:text-7xl text-5xl font-semibold text-[#574dbe]">2</h1>
+          <div class="pl-5">
+            <h2 class="lg:text-2xl text-[20px]">Train your model</h2>
+            <p class="text-[#b0b0ffce] text-pretty lg:text-[17px] text-[13px] max-w-xs">
+              Choose a base architecture and fine-tune hyperparameters.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center lg:pt-10 pt-5 pl-6">
+          <h1 class="lg:text-7xl text-5xl font-semibold text-[#574dbe]">3</h1>
+          <div class="pl-5">
+            <h2 class="lg:text-2xl text-[20px]">Deploy with one click</h2>
+            <p class="text-[#b0b0ffce] text-pretty lg:text-[17px] text-[13px] max-w-xs">
+              Get your API endpoint in seconds. Ready for production.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-span-4 lg:col-span-3 row-span-3 row-start-13 lg:row-span-2 lg:col-start-4 lg:row-start-5 h-full bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] rounded-xl border border-gray-800 p-4 transition duration-300 hover:border-[#464272] hover:shadow-lg hover:shadow-[#464272]/20">
+      <div class="flex flex-col items-center justify-center h-full">
+        <h2 class="text-xl lg:text-2xl font-semibold text-white">Join us and start building your AI models today!</h2>
+        <div class="flex items-center gap-4 mt-4">
+          <a href="/signup-signin" class="bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] lg:px-7 lg:py-2 px-5 py-1 cursor-pointer rounded-full border border-[#2b2478] hover:transform hover:scale-105 hover:translate-y-0.5 transition-all duration-300 ease-in-out text-white hover:border-[#443c9c]">
+            Login
+          </a>
+          <a href="/signup-signin" class="bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] lg:px-7 lg:py-2 px-5 py-1 cursor-pointer rounded-full border border-[#2b2478] hover:transform hover:scale-105 hover:translate-y-0.5 transition-all duration-300 ease-in-out text-white hover:border-[#443c9c]">
+            Register
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>

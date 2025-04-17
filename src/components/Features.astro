@@ -1,0 +1,58 @@
+---
+import Upload from "./icons/Upload.astro"
+import Builder from "./icons/Builder.astro"
+import Maintenance from "./icons/Maintenance.astro"
+import Document from "./icons/Document.astro"
+import Deploy from "./icons/Deploy.astro"
+import Analysis from "./icons/Analysis.astro"
+---
+
+<div id="features" class="pt-50 px-10 text-center pb-30 flex items-center flex-col">
+    <h1 class="pb-2 font-semibold text-xl text-[#5a5ab1]">Features</h1>
+    <h2 class="lg:text-5xl font-semibold text-2xl sm:text-4xl">No data scientist? No problem.</h2>
+    <p class="lg:text-xl text-xl pt-5 sm:text-xl max-w-220 text-pretty">Train and deploy AI models in minutes. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto eveniet fugiat, tempore illo mollitia.<p/>
+</div>
+
+
+<div class="grid grid-cols-1 grid-rows-12 md:grid-cols-4 md:grid-rows-6 lg:grid-cols-6 lg:grid-rows-4 lg:gap-y-10 md:gap-x-10 gap-y-20 px-10 lg:pl-45">
+    <div class="col-span-2 row-span-2 ">
+        <div class="inline-flex ">
+            <Upload className="2xl:size-10 size-20 2xl:pb-0 pb-12"/>
+            <h1 class="font-semibold text-xl pl-3 max-w-100">Upload your data.<span class="text-xl font-light pl-2 text-gray-300">Drag and drop a CSV file, connect a database, or explore curated datasets — it’s that simple.</span></h1>
+        </div>
+    </div>
+    
+    <div class="col-span-2 row-span-2 md:col-span-2 md:row-span-2 lg:col-span-2 lg:row-span-2 lg:col-start-3">
+        <div class="flex">
+            <Builder className="2xl:size-10 size-20 2xl:pb-0 pb-12"/>
+            <h1 class="font-semibold text-xl pl-3 max-w-100">Train your model.<span class="text-xl font-light pl-2 text-gray-300">Choose a base architecture and fine-tune hyperparameters. No code, no stress.</span></h1>
+        </div>
+
+    </div>
+    <div class="col-span-2 row-span-2 md:col-span-2 md:row-span-2 lg:col-span-2 lg:row-span-2 lg:col-start-1 lg:row-start-3">
+        <div class="flex">
+            <Deploy className="2xl:size-10 size-20 2xl:pb-0 pb-12"/>
+            <h1 class="font-semibold text-xl pl-3 max-w-100">Deploy with one click.<span class="text-xl font-light pl-2 text-gray-300">Instantly generate a secure API endpoint. Your AI, ready for production.</span></h1>
+        </div>
+    </div>
+    <div class="col-span-2 row-span-2 md:col-span-2 md:row-span-2 lg:col-span-2 lg:row-span-2 lg:col-start-5 lg:row-start-1">
+        <div class="flex">
+            <Maintenance className="2xl:size-10 size-20 2xl:pb-0 pb-12"/>
+            <h1 class="font-semibold text-xl pl-3 max-w-100">Predictive Maintenance.<span class="text-xl font-light pl-2 text-gray-300">Use real-time sensor data to predict failures before they happen.</span></h1>
+        </div>
+    </div>
+        
+    <div class="col-span-2 row-span-2 md:col-span-2 md:row-span-2 lg:col-span-2 lg:row-span-2 lg:col-start-3 lg:row-start-3">
+        <div class="flex">
+            <Analysis className="2xl:size-10 size-20 2xl:pb-0 pb-12"/>
+            <h1 class="font-semibold text-xl pl-3 max-w-100">Sentiment Analysis.<span class="text-xl font-light pl-2 text-gray-300">Build custom models from customer reviews and unlock actionable insights.</span></h1>
+        </div>
+    </div>
+    <div class="col-span-2 row-span-2 md:col-span-2 md:row-span-2 lg:col-span-2 lg:row-span-2 lg:col-start-5 lg:row-start-3">
+        <div class="flex">
+            <Document className="2xl:size-10 size-20 2xl:pb-0 pb-12"/>
+            <h1 class="font-semibold text-xl pl-3 max-w-100">Document Automation.<span class="text-xl font-light pl-2 text-gray-300">Extract structured data from unstructured documents and streamline workflows.</span></h1>
+        </div>
+    </div>
+</div>
+    
