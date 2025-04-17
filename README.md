@@ -1,48 +1,32 @@
-# Astro Starter Kit: Basics
+Scalify-AI 🧠✨
+⚠️ Este proyecto es solo una landing page diseñada para prácticas personales. No representa un producto real.
 
-```sh
-npm create astro@latest -- --template basics
-```
+Scalify-AI es una landing page que he creado con fines educativos para mejorar mis habilidades en diseño web, maquetación y uso de tecnologías modernas como TailwindCSS y Astro.
+La página simula una presentación atractiva y minimalista para una herramienta de inteligencia artificial.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+💻 Tecnologías usadas
+Astro
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+TailwindCSS
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+HTML / CSS
 
-## 🚀 Project Structure
+Diseño responsive
 
-Inside of your Astro project, you'll see the following folders and files:
+📸 Vista previa
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+![hero](https://github.com/user-attachments/assets/d6688dd9-01e8-4d0b-9836-60e41e82b1ee)
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+![testiomonio](https://github.com/user-attachments/assets/cdd550e9-a6d7-422b-bb80-ea6c69137f0c)
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+🚀 ¿Por qué hice esto?
+Este proyecto es simplemente una práctica personal, no es una aplicación funcional ni un producto real. Me ha servido para practicar:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Estructuración de componentes
 
-## 👀 Want to learn more?
+Estilos responsivos
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Uso de gradientes y sombras modernas
+
+Formularios con formsubmit
