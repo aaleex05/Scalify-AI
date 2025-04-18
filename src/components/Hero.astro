@@ -1,14 +1,14 @@
 ---
 import Badge from "./icons/Badge.astro";
-import Bento from "./icons/Bento.astro";
 import Document from "./icons/Document.astro";
 import Smile from "./icons/Smile.astro";
 import Maintenance from "./icons/Maintenance.astro";
 import Puzzle from "./icons/Puzzle.astro";
+import Button from "./Button.astro";
 ---
 
 <div class="flex justify-center items-center flex-col pt-25">
-  <a href="/">
+  <a href="#features">
     <Badge>
       Announcing our next round of funding.
       <span class="text-[#7171cf] pl-1 flex items-center justify-center gap-x-2">
@@ -37,8 +37,8 @@ import Puzzle from "./icons/Puzzle.astro";
         <span class="lg:pb-5 pb-5 pt-3 flex text-xs text-[#b0b0ffce] lg:text-xs">
           From data ingestion to interface API, all in one place
         </span>
-        <a class="bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] lg:px-6 lg:py-1 px-5 py-1 cursor-pointer rounded-full border border-[#2b2478] hover:transform hover:scale-105 hover:translate-y-0.5 transition-all duration-300 ease-in-out text-white hover:border-[#4840a8]" href="#">
-          Get Started
+        <a href="#testimonials">
+          <Button>Testimonials</Button>
         </a>
       </div>
     </div>
@@ -119,11 +119,8 @@ import Puzzle from "./icons/Puzzle.astro";
       <div class="flex flex-col items-center justify-center h-full">
         <h2 class="text-xl lg:text-2xl font-semibold text-white">Join us and start building your AI models today!</h2>
         <div class="flex items-center gap-4 mt-4">
-          <a href="/signup-signin" class="bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] lg:px-7 lg:py-2 px-5 py-1 cursor-pointer rounded-full border border-[#2b2478] hover:transform hover:scale-105 hover:translate-y-0.5 transition-all duration-300 ease-in-out text-white hover:border-[#443c9c]">
-            Login
-          </a>
-          <a href="/signup-signin" class="bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] lg:px-7 lg:py-2 px-5 py-1 cursor-pointer rounded-full border border-[#2b2478] hover:transform hover:scale-105 hover:translate-y-0.5 transition-all duration-300 ease-in-out text-white hover:border-[#443c9c]">
-            Register
+          <a href="#contact">
+            <Button lgpx = "lg:px-7" lgpy="lg:py-2" px="px-5" py="py-1">Get in touch</Button>
           </a>
         </div>
       </div>

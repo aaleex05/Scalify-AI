@@ -1,6 +1,7 @@
 ---
 import GitHub from "../components/icons/GitHub.astro";
 import Email from "../components/icons/Email.astro";
+import Button from "../components/Button.astro";
 ---
 
 <div id="contact" class="flex flex-col xl:flex-row sm:pt-20 mt-10">
@@ -75,12 +76,7 @@ import Email from "../components/icons/Email.astro";
                     ></textarea>
                 </div>
                 <div class="col-span-2 flex justify-end">
-                    <button
-                        type="submit"
-                        class="bg-gradient-to-r from-[#0b0c2a] to-[#2b2478] lg:px-6 lg:py-1 px-5 py-1 cursor-pointer rounded-full border border-[#2b2478] hover:transform hover:scale-105 hover:translate-y-0.5 transition-all duration-300 ease-in-out text-white hover:border-[#4840a8] "
-                    >
-                        Send
-                    </button>
+                    <Button type="submit">Enviar</Button>
                 </div>
             </div>
         </form>
