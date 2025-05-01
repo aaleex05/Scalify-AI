@@ -1,10 +1,12 @@
 Scalify-AI 🧠✨
+
 ⚠️ Este proyecto es solo una landing page diseñada para prácticas personales. No representa un producto real.
 
 Scalify-AI es una landing page que he creado con fines educativos para mejorar mis habilidades en diseño web, maquetación y uso de tecnologías modernas como TailwindCSS y Astro.
 La página simula una presentación atractiva y minimalista para una herramienta de inteligencia artificial.
 
 💻 Tecnologías usadas
+
 Astro
 
 TailwindCSS
@@ -21,6 +23,7 @@ Diseño responsive
 
 
 🚀 ¿Por qué hice esto?
+
 Este proyecto es simplemente una práctica personal, no es una aplicación funcional ni un producto real. Me ha servido para practicar:
 
 Estructuración de componentes
